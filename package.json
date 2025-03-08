@@ -1,6 +1,6 @@
 {
   "name": "luna-technical-interview",
-  "homepage": "https://dmitrydoroshko.github.io/luna-test-task/",
+  "homepage": "https://dmitrydoroshko.github.io/luna-test-task",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -11,7 +11,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
